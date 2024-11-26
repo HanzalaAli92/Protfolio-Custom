@@ -1,0 +1,153 @@
+.section{
+     color: #4b5563;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+
+.project_div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_div1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.h1a{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #111827;
+}
+
+.project_div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px;
+    margin-top: -80px;
+}
+
+.project_div3{
+    padding: 16px;
+    cursor: pointer;
+}
+
+.project_div4{
+    display: flex;
+    position: relative
+}
+
+.image1{
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project_div5{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    border-width: 4px;
+    border-color: #e5e7eb;
+    background-color: #ffffff;
+    opacity: 0;
+}
+
+.project_div5:hover{
+    opacity: 1;
+}
+
+.h2a{
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #3b82f6;
+    margin-bottom: 4px;
+}
+
+.h1b{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.p1{
+    line-height: 1.625;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.p2{
+    line-height: 1.625;
+    color: #3b82f6; 
+}
+
+.p2:hover{
+    text-decoration-line: underline;
+}
+
+.div_1{
+    padding: 16px;
+}
+
+.p3{
+    line-height: 1.625;
+}
+
+
+
+@media (min-width: 640px) {
+    .section{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .project_div3 {
+        width: 50%;
+    }
+    
+    .div_1{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    .project_div3 {
+        width: 33.333333%;
+    }
+
+    .div_1 {
+        width: 33.333333%;
+    }
+}
