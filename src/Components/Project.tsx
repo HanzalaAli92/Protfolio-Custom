@@ -20,7 +20,9 @@ const Project = () => {
           <Image
             alt="gallery"
             className={style.image1}
-            src={require("../../public/media/pic-1.png")}
+            src={"/media/pic-1.png"}
+            width={500}
+            height={300}
           />
           <div className={style.project_div5}>
             <h2 className={style.h2a}>
@@ -46,7 +48,9 @@ const Project = () => {
           <Image
             alt="gallery"
             className={style.image1}
-            src={require("../../public/media/pic-7.png")}
+            src={"/media/pic-7.png"}
+            width={500}
+            height={300}
           />
           <div className={style.project_div5}>
             <h2 className={style.h2a}>
@@ -72,7 +76,9 @@ const Project = () => {
           <Image
             alt="gallery"
             className={style.image1}
-            src={require("../../public/media/pic-8.png")}
+            src={"/media/pic-8.png"}
+            width={500}
+            height={300}
           />
           <div className={style.project_div5}>
             <h2 className={style.h2a}>

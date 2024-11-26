@@ -12,7 +12,7 @@ const About = () => {
       <Image
         className={style.image}
         alt="hero"
-        src={require("../../public/media/profile.png")}
+        src={"/media/profile.png"}
         width={300}
         height={500}
       />

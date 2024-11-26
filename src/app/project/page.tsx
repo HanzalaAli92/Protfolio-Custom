@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import style from "@/Components/Styles/project.module.css"
-import Link from 'next/link'
+
 
 const Project = () => {
   return (

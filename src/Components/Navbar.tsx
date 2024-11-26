@@ -14,7 +14,7 @@ const Navbar = () => {
 
     <a className={style.a}>
      
-      <Image src={require("../../public/media/logo.jpg")}
+      <Image src={"/media/logo.jpg"}
       alt="Logo" 
       width={100} 
       height={100} 
@@ -22,6 +22,7 @@ const Navbar = () => {
 
       <span className={style.span}>Hanzala</span>
     </a>
+    
     <nav className={style.nav}>
       <Link href="/" className={style.nav_link}>Home</Link>
 
