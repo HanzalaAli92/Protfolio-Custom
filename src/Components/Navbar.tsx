@@ -46,11 +46,11 @@ const Navbar = () => {
   <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
   <DropdownMenuContent className={style.menu}>
     <DropdownMenuSeparator />
-    <DropdownMenuItem><Link href="/" className={style.nav_link}>Home</Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="/about" className={style.nav_link}>About</Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="/project" className={style.nav_link}>Project</Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="/skills" className={style.nav_link}>Skills</Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="contact" className={style.nav_link}>Contact</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/" className={style.nav_link2}>Home</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/about" className={style.nav_link2}>About</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/project" className={style.nav_link2}>Project</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/skills" className={style.nav_link2}>Skills</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="contact" className={style.nav_link2}>Contact</Link></DropdownMenuItem>
   </DropdownMenuContent>
   </DropdownMenu>
   </div>
