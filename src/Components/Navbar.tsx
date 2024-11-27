@@ -3,6 +3,14 @@ import React from 'react'
 import Image from 'next/image'
 import style from "@/Components/Styles/navbar.module.css"
 import { BsCloudDownload } from "react-icons/bs";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/Components/ui/dropdown-menu"
 
 const Navbar = () => {
   return (
@@ -34,6 +42,19 @@ const Navbar = () => {
 
       <Link href="contact" className={style.nav_link}>Contact</Link>
     </nav>
+    <div className={style.mobile}>
+  <DropdownMenu >
+  <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
+  <DropdownMenuContent>
+    <DropdownMenuSeparator />
+    <DropdownMenuItem><Link href="/" className={style.nav_link}>Home</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/about" className={style.nav_link}>About</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/project" className={style.nav_link}>Project</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="/skills" className={style.nav_link}>Skills</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href="contact" className={style.nav_link}>Contact</Link></DropdownMenuItem>
+  </DropdownMenuContent>
+  </DropdownMenu>
+  </div>
     <a href="/media/My resume.pdf">
     <button className={style.button}>
      Download Cv
