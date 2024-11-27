@@ -44,7 +44,7 @@ const Navbar = () => {
     <div className={style.mobile}>
   <DropdownMenu >
   <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
-  <DropdownMenuContent>
+  <DropdownMenuContent className={style.menu}>
     <DropdownMenuSeparator />
     <DropdownMenuItem><Link href="/" className={style.nav_link}>Home</Link></DropdownMenuItem>
     <DropdownMenuItem><Link href="/about" className={style.nav_link}>About</Link></DropdownMenuItem>
