@@ -1,7 +1,7 @@
 /* Navbar Section */
 .navbar_div{
     background-color: #ffffff;
-    /* z-index: 50; */
+    z-index: 50;
     position: sticky;
     top: 0px;
     padding-left: 0px;
@@ -100,7 +100,8 @@
 }
 .menu{
     position: relative;
-    z-index: 60px;
+    /* z-index: 60px; */
+
 }
 
 /* Navbar Section */
