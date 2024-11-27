@@ -100,8 +100,9 @@
 }
 .menu{
     position: relative;
-    /* z-index: 60px; */
-
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 /* Navbar Section */
